@@ -6,8 +6,8 @@ on:
       - main
 jobs:
   hello:
-    runs-on: ubuntu latest
-  steps:
+    runs-on: ubuntu-latest
+    steps:
     - name: Say hello
       run: echo "Hello"
     - name: pwd
