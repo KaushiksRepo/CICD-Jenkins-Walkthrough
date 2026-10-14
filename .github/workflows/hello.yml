@@ -3,7 +3,7 @@ name: My first workflow
 on:
   push:
     branches:
-      - main
+      - Main
 jobs:
   hello:
     runs-on: ubuntu latest
